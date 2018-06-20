@@ -2,7 +2,7 @@
   "name": "generate-memorable-password",
   "version": "0.0.0",
   "description": "Random memorable password generator.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
