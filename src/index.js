@@ -10,5 +10,5 @@ module.exports = function generate() {
   const adjective2 = adjectives[random(0, numAdjectives - 1)];
   const noun1 = nouns[random(0, numNouns - 1)];
 
-  return [adjective1, adjective2, noun1, random(100000, 999999)].join("-").replace(/ /g, "-");
+  return [adjective1, adjective2, noun1, random(1000, 9999)].join("-").replace(/ /g, "-");
 };

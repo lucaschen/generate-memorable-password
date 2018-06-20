@@ -9,5 +9,5 @@ module.exports = function random(min, max) {
   const randomBytes = crypto.randomBytes(4);
   const randomNumber = randomBytes.readUInt32BE(0);
 
-  return min + Math.floor(randomNumber / FOUR_BYTES * (max + 1));
+  return min + Math.floor(randomNumber / FOUR_BYTES * (diff + 1));
 };
